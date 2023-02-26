@@ -1,4 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
+import IconBrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/brand-github.tsx"
+import IconBrandLinkedin from "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/brand-linkedin.tsx"
+import IconBrandMastodon from "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/brand-mastodon.tsx"
 
 type Props = {
   active: string;
@@ -56,6 +59,11 @@ export default function Home({ active }: Props) {
             Finnish/German developer with background in games, education technology and smart
             cities.
           </p>
+        </div>
+        <div class="w-full flex flex-row justify-center mt-20 text-gray-500 gap-5">
+          <a href="https://www.linkedin.com/in/felixwestphal/"><IconBrandLinkedin class="w-9 h-9" /></a>
+          <a href="https://github.com/superFelix5000"><IconBrandGithub class="w-9 h-9" /></a>
+          <a href="https://fosstodon.org/@superFelix5000"><IconBrandMastodon class="w-9 h-9" /></a>
         </div>
         
       </div>
