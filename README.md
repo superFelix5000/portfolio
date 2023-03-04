@@ -15,6 +15,10 @@ You can see the app (which I have deployed using
 [Deno Deploy](https://deno.com/deploy)) -->
 [here](https://superfelix5000.deno.dev/)
 
+### Todo
+- the twind plugin seems to be a bit buggy so the text decoration colors don't work, hence the ugly inline styling
+- ...
+
 ### Usage
 
 Start the project:
