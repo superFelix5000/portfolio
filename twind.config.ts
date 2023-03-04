@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'mono': ['"Courier New"', 'monospace'],
-      }
-    }
-  }
+        "mono": ['"Courier New"', "monospace"],
+      },
+    },
+  },
 } as Options;

@@ -1,11 +1,19 @@
 # Portfolio
+
 A small portfolio/link website project.
 
 ## built with fresh
-Trying out the new full stack framework [Fresh](https://fresh.deno.dev/) by the [Deno](https://deno.land/) team. Jumping on the hype train with islands architecture and full stack type safety. Really enjoying the developer experience so far.
+
+Trying out the new full stack framework [Fresh](https://fresh.deno.dev/) by the
+[Deno](https://deno.land/) team. Jumping on the hype train with islands
+architecture and full stack type safety. Really enjoying the developer
+experience so far.
 
 ### Look at it
-You can see the app (which I have deployed using [Deno Deploy](https://deno.com/deploy)) --> [here](https://superfelix5000.deno.dev/)
+
+You can see the app (which I have deployed using
+[Deno Deploy](https://deno.com/deploy)) -->
+[here](https://superfelix5000.deno.dev/)
 
 ### Usage
 

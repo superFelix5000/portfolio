@@ -1,5 +1,3 @@
 export default function Projects() {
-    return (
-        <p>hello projects</p>
-    )
+  return <p>hello projects</p>;
 }
