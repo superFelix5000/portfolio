@@ -35,7 +35,7 @@ export default function Home({ active }: Props) {
           </ul>
         </div>
         <div class="mt-10 md:mt-20">
-          <div class="flex sm:flex-row flex-col gap-5 w-full">
+          <div class="flex flex-row gap-5 w-full">
             <img
               src="/me.png"
               class="rounded-full md:w-52 md:h-52 w-24 h-24"
@@ -68,7 +68,10 @@ export default function Home({ active }: Props) {
 "
             >
               Github
-            </a>. You can reach me at{" "}
+            </a>. 
+            <br/>
+            <br/>
+            You can reach me at{" "}
             <a
               href="https://www.linkedin.com/in/felixwestphal/"
               class="underline hover:font-bold"
