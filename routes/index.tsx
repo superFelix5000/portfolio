@@ -56,14 +56,23 @@ export default function Home({ active }: Props) {
             </div>
           </div>
           <p class="mt-16 font-mono text-lg font-thin">
-            Finnish/German developer with background in games, education technology and smart
-            cities.
+            German/Finnish developer with background in games, education technology and smart
+            cities. Feel free to take a look at some of my personal projects on <a href="https://github.com/superFelix5000" class="underline hover:font-bold">Github</a>.
+            You can reach me at <a href="https://www.linkedin.com/in/felixwestphal/" class="underline hover:font-bold">LinkedIn</a> and&nbsp;
+            <a href="hhttps://fosstodon.org/@superFelix5000" class="underline hover:font-bold">Mastodon</a> or send me a mail via&nbsp;
+            <a class="underline hover:font-bold" href="javascript:location='mailto:\u0066\u0077\u0065\u0073\u0074\u0040\u0070\u006f\u0073\u0074\u0065\u006f\u002e\u0064\u0065';void 0"><script type="text/javascript">document.write('\u0066\u0077\u0065\u0073\u0074\u0040\u0070\u006f\u0073\u0074\u0065\u006f\u002e\u0064\u0065')</script></a>
           </p>
         </div>
         <div class="w-full flex flex-row justify-center mt-20 text-gray-500 gap-5">
-          <a href="https://www.linkedin.com/in/felixwestphal/"><IconBrandLinkedin class="w-9 h-9" /></a>
-          <a href="https://github.com/superFelix5000"><IconBrandGithub class="w-9 h-9" /></a>
-          <a href="https://fosstodon.org/@superFelix5000"><IconBrandMastodon class="w-9 h-9" /></a>
+          <a href="https://github.com/superFelix5000" title="GitHub">
+            <IconBrandGithub class="w-9 h-9 hover:text-gray-800"/>
+          </a>
+          <a href="https://www.linkedin.com/in/felixwestphal/" class="transition duration-75 ease-in-out" title="LinkedIn">
+            <IconBrandLinkedin class="w-9 h-9 hover:text-gray-800" />
+          </a>
+          <a href="https://fosstodon.org/@superFelix5000" title="Mastodon">
+            <IconBrandMastodon class="w-9 h-9 hover:text-gray-800"/>
+          </a>
         </div>
         
       </div>
