@@ -124,16 +124,6 @@ export default function Home({ active }: Props) {
           </a>
         </div>
       </div>
-      <div class="flex justify-center fixed bottom-5 w-full">
-        <a href="https://fresh.deno.dev">
-          <img
-            width="197"
-            height="37"
-            src="https://fresh.deno.dev/fresh-badge.svg"
-            alt="Made with Fresh"
-          />
-        </a>
-      </div>
     </>
   );
 }
