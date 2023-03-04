@@ -8,6 +8,9 @@ Trying out the new full stack framework [Fresh](https://fresh.deno.dev/) by the
 [Deno](https://deno.land/) team. Jumping on the hype train with islands
 architecture and full stack type safety. Really enjoying the developer
 experience so far.
+<br>
+<br>
+[![Made with Fresh](https://fresh.deno.dev/fresh-badge.svg)](https://fresh.deno.dev)
 
 ### Look at it
 
