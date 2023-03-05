@@ -62,10 +62,7 @@ export default function Home({ active }: Props) {
             <a
               href="https://github.com/superFelix5000"
               class="underline hover:font-bold"
-              style="
-    text-decoration-color: #0ea5e9;
-    text-decoration-thickness: 2px;
-"
+              style="text-decoration-color: #6e40c9;text-decoration-thickness: 2px;"
             >
               Github
             </a>. 
@@ -75,52 +72,43 @@ export default function Home({ active }: Props) {
             <a
               href="https://www.linkedin.com/in/felixwestphal/"
               class="underline hover:font-bold"
-              style="
-    text-decoration-color: #ec4899;
-    text-decoration-thickness: 2px;
-"
+              style="text-decoration-color: #0A66C2;text-decoration-thickness: 2px;"
             >
               LinkedIn
             </a>{" "}
             and&nbsp;
             <a
               href="https://fosstodon.org/@superFelix5000"
-              class="underline hover:font-bold decoration-pink-500"
-              style="
-    text-decoration-color: #6366f1;
-    text-decoration-thickness: 2px;
-"
+              class="underline hover:font-bold"
+              style="text-decoration-color: #595aff;text-decoration-thickness: 2px;"
             >
               Mastodon
             </a>{" "}
-            or send me a mail via&nbsp;
+            or drop me an&nbsp;
             <a
-              class="underline hover:font-bold decoration-indigo-500"
-              style="
-    text-decoration-color: yellow;
-    text-decoration-thickness: 2px;
-"
+              class="underline hover:font-bold"
+              style="text-decoration-color: yellow;text-decoration-thickness: 2px;"
               href="javascript:location='mailto:\u0066\u0077\u0065\u0073\u0074\u0040\u0070\u006f\u0073\u0074\u0065\u006f\u002e\u0064\u0065';void 0"
             >
               <script type="text/javascript">
-                document.write('\u0066\u0077\u0065\u0073\u0074\u0040\u0070\u006f\u0073\u0074\u0065\u006f\u002e\u0064\u0065')
+                document.write('\u0065\u002D\u006D\u0061\u0069\u006C')
               </script>
             </a>
           </p>
         </div>
         <div class="w-full flex flex-row justify-center mt-20 text-gray-500 gap-5">
           <a href="https://github.com/superFelix5000" title="Github">
-            <IconBrandGithub class="w-9 h-9 hover:text-gray-800" />
+            <IconBrandGithub class="w-9 h-9 hover:text-github" />
           </a>
           <a
             href="https://www.linkedin.com/in/felixwestphal/"
             class="transition duration-75 ease-in-out"
             title="LinkedIn"
           >
-            <IconBrandLinkedin class="w-9 h-9 hover:text-gray-800" />
+            <IconBrandLinkedin class="w-9 h-9 hover:text-linkedin" />
           </a>
           <a href="https://fosstodon.org/@superFelix5000" title="Mastodon">
-            <IconBrandMastodon class="w-9 h-9 hover:text-gray-800" />
+            <IconBrandMastodon class="w-9 h-9 hover:text-mastodon" />
           </a>
         </div>
       </div>
