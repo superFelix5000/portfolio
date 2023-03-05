@@ -2,11 +2,6 @@ import { Head } from "$fresh/runtime.ts";
 import { LinkIcons } from "../components/linkicons.tsx";
 
 export default function Home() {
-  const menus = [
-    { name: "Home", href: "/" },
-    { name: "Projects", href: "/projects" },
-  ];
-
   return (
     <>
       <Head>
