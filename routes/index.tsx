@@ -3,11 +3,7 @@ import IconBrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/bran
 import IconBrandLinkedin from "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/brand-linkedin.tsx";
 import IconBrandMastodon from "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/brand-mastodon.tsx";
 
-type Props = {
-  active: string;
-};
-
-export default function Home({ active }: Props) {
+export default function Home() {
   const menus = [
     { name: "Home", href: "/" },
     { name: "Projects", href: "/projects" },
@@ -18,22 +14,7 @@ export default function Home({ active }: Props) {
       <Head>
         <title>Felix Westphal</title>
       </Head>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <div class="bg-white w-full max-w-screen-lg flex flex-col md:flex-row gap-4 justify-end">
-          <ul class="flex items-center gap-6">
-            {menus.map((menu) => (
-              <li>
-                <a
-                  href={menu.href}
-                  class={"text-gray-500 text-lg font-thin hover:text-gray-700 py-1 border-gray-500 font-mono" +
-                    (menu.href === active ? " font-bold border-b-2" : "")}
-                >
-                  {menu.name}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
+      <div class="p-4 mx-auto max-w-screen-md">        
         <div class="mt-10 md:mt-20">
           <div class="flex flex-row gap-5 w-full">
             <img
