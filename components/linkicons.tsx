@@ -9,7 +9,7 @@ const mastodonLink = "https://fosstodon.org/@superFelix5000";
 
 export function LinkIcons() {
     return (
-        <div class="w-full flex flex-row mt-20 justify-center text-gray-500 gap-5">
+        <div class="w-full flex flex-row justify-center text-gray-500 gap-5">
           <a href={githubLink} title="Github">
             <IconBrandGithub class="w-9 h-9 hover:text-github" />
           </a>

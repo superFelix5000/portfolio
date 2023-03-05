@@ -69,7 +69,9 @@ export default function Home() {
               </script>
             </a>
           </p>
-          <LinkIcons/>
+          <div class="mt-20">
+            <LinkIcons/>
+          </div>
         </div>        
       </div>
     </>

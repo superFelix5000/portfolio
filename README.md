@@ -19,7 +19,7 @@ You can see the app (which I have deployed using
 [here](https://superfelix5000.deno.dev/)
 
 ### Todo
-- the twind plugin seems to be a bit buggy so the text decoration colors don't work, hence the ugly inline styling
+- the twind plugin for fresh apparenty doesn't yet support tailwind 3 properly, waiting for the next version
 - ...
 
 ### Usage
